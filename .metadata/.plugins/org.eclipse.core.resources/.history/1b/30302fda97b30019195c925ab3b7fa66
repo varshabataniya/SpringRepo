@@ -1,0 +1,22 @@
+package com.zensar.login;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.PostMapping;
+
+@Controller
+public class LoginController {
+
+	@PostMapping("/valid")
+	//ModelMap is used to store business logic result
+	public String validate(User user,ModelMap map){
+		if(user.getUsername().equals("Varsha") && user.getPassword().equals("")){
+			map.addAttribute("user", user);
+			return "Success";
+		}else{
+			map.addAttribute("LoginError", "Invalid Username Password");
+			return "login";
+		}
+
+	}
+}

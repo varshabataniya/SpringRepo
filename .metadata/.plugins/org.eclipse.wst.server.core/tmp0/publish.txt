@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Sat Aug 03 16:40:58 IST 2019
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\TRG\\.m2\\repository\\org\\springframework\\spring-web\\5.1.8.RELEASE\\spring-web-5.1.8.RELEASE.jar=WEB-INF/lib/spring-web-5.1.8.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:D\:\\Varsha\ B\\Spring\\LoginSpringApp\\WebContent\\WEB-INF\\lib\\spring-web-5.1.8.RELEASE.jar=WEB-INF/lib/spring-web-5.1.8.RELEASE.jar
